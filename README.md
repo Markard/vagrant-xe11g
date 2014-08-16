@@ -1,5 +1,6 @@
 #vagrant-xe11g with web-server
 
+Initial setting could be setup via settings.yaml file.
 
 ####Added shell provision for: 
 * httpd
