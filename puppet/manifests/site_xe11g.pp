@@ -108,7 +108,7 @@ class oraclexe {
   }
   
   exec { "Configure Oracle XE":
-    command => "/etc/init.d/oracle-xe configure responseFile=/vagrant/xe.rsp >> /tmp/XEsilentinstall.log" ,
+    command => "/etc/init.d/oracle-xe configure responseFile=/vagrant/scripts/xe.rsp >> /tmp/XEsilentinstall.log" ,
     require => Exec["Install Oracle XE 11g"],
   }
   

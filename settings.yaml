@@ -1,0 +1,12 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+
+folders:
+    - map: code
+      to: /vagrant/code
+
+sites:
+    - map: localhost.example
+      to: /var/www/html/
