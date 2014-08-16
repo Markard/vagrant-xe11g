@@ -27,3 +27,6 @@ Examle: serve localhost.example /var/www/html/
 ```
 Example: init_db user_name user_pwd dump_dit dump_filename.
 ```
+
+The base vagrant: https://github.com/matthewbaldwin/vagrant-xe11g
+Idea of the setting: https://github.com/laravel/homestead
