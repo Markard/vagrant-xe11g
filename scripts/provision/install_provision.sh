@@ -37,7 +37,7 @@ sudo cp /vagrant/files/.bashrc /home/vagrant/.bashrc
 sudo cp -R /vagrant/files/home/. /home/vagrant/
 
 sudo rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
-sudo yum -y install php55w php55w-mcrypt php55w-mysql php55w-pdo php55w-cli php55w-gd php55w-xml php55w-mbstring  php55w-pecl-memcache.x86_64
+sudo yum -y install php55w php55w-mcrypt php55w-mysql php55w-pdo php55w-cli php55w-gd php55w-xml php55w-mbstring  php55w-pecl-memcache.x86_64 php55w-pecl-xdebug.x86_64
 
 dos2unix /vagrant/files/etc/php.ini
 sudo cp /vagrant/files/etc/php.ini /etc/php.ini
